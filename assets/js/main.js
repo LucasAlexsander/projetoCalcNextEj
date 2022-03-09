@@ -39,3 +39,14 @@ function calcular(tipo, tecla) {
         console.log(9**(1/2))
     }
 }
+
+function abrirMenu() {
+    let ul = document.getElementsByTagName('ul')[0];
+   
+    if(ul.style.display == 'flex') {   
+        
+        ul.style.display = 'none'        
+    } else {
+        ul.style.display = 'flex'
+    } 
+}
