@@ -15,6 +15,7 @@ body {
 header {
     height: 100px;
     width: 100vw;
+    margin-bottom: 80px;
 }
 header nav {
     display: flex;
